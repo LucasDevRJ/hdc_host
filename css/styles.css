@@ -130,7 +130,6 @@ nav {
 
 .services-container p {
     line-height: 24px;
-    
 }
 
 /* CSS da Seção de Preços e Planos */
@@ -291,6 +290,47 @@ nav {
     background-color: #2cc76a;
     color: #fff;
     cursor: pointer;
+}
+
+.consultancy-container {
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.consultancy-container h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.consultancy-container p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.consultancy-container ul li {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 30%;
+    border: 1px solid #2cc76a;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 5px;
+}
+
+.fa-globe, .fa-search {
+    color: #2cc76a;
+}
+
+.fa-server, .fa-lightbulb {
+    color: #ef3f29;
+}
+
+.fa-code, .fa-search {
+    color: #ef8f29;
+}
+
+.consultancy-container h3 {
+    margin-bottom: 25px;
 }
 
 /* CSS do Rodapé */

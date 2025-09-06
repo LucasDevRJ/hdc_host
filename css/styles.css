@@ -325,7 +325,7 @@ nav {
     color: #ef3f29;
 }
 
-.fa-code, .fa-search {
+.fa-code, .fa-users {
     color: #ef8f29;
 }
 
@@ -351,6 +351,10 @@ footer {
     .plan {
         margin: 0 5px;
     }
+
+    .consultancy-container ul p {
+        font-size: 16px;
+    }
 }
 
 /* Responsividade para tablets a partir de 900px */
@@ -361,6 +365,15 @@ footer {
 
     .searchdomain-container {
         padding: 2rem 4rem;
+    }
+
+    .consultancy-container h3 {
+        font-size: 17px;
+    }
+
+    .consultancy-container ul p {
+        font-size: 16px;
+        padding: 0 1rem;
     }
 }
 
@@ -416,6 +429,16 @@ footer {
     .contact-container textarea {
         width: 100%;
         margin: 10px 0;
+    }
+
+    .consultancy-container ul li {
+        display: block;
+        width: 50%;
+        margin: 15px auto;
+    }
+
+    .consultancy-container ul p {
+        padding: 0;
     }
 }
 
@@ -475,5 +498,22 @@ footer {
 
     .contact-container p {
         font-size: 18px;
+    }
+
+    .consultancy-container h2 {
+        font-size: 26px;
+        padding: 0 12px;
+    }
+
+    .consultancy-container ul h3 {
+        font-size: 18px;
+    }
+
+    .consultancy-container ul li {
+        width: 80%;
+    }
+
+    .consultancy-container ul p {
+        font-size: 20px;
     }
 }

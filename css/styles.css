@@ -368,9 +368,72 @@ footer {
         padding: 3rem 2rem;
     }
 
+    .contact-container h2 {
+        font-size: 32px;
+    }
+
     .contact-container input,
     .contact-container textarea {
         width: 100%;
         margin: 10px 0;
+    }
+}
+
+/* Responsividade para celular a partir de 400px */
+@media (max-width: 400px) {
+    .logo {
+      position: absolute;
+      left: -25px;
+    }
+
+    .main-banner p {
+        padding: 0;
+    }
+
+    .searchdomain-container h2 {
+        font-size: 26px;
+    }
+
+    .searchdomain-container p {
+        font-size: 22px;
+    }
+
+    .contact-container h2 {
+        font-size: 28px;
+    }
+}
+
+/* Responsividade para celular a partir de 360px */
+@media (max-width: 360px) {    
+    .logo {
+        display: none;
+    }
+
+    .navbar-container {
+        padding: 0 1rem;
+    }
+
+    .main-banner p {
+        font-size: 27px;
+    }
+
+    .searchdomain-container input[type="submit"] {
+        width: 100%;
+    }
+
+    .searchdomain-container h2 {
+        font-size: 20px;
+    }
+
+    .searchdomain-container p {
+        font-size: 19px;
+    }
+
+    .contact-container h2 {
+        font-size: 22px;
+    }
+
+    .contact-container p {
+        font-size: 18px;
     }
 }

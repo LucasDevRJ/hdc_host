@@ -333,6 +333,63 @@ nav {
     margin-bottom: 25px;
 }
 
+.collaborator {
+    width: 40%;
+    border-radius: 5px;
+}
+
+.team-container {
+    background-color: #34454e;
+    padding: 5rem 0;
+}
+
+.team-container h2 {
+    color: #FFF;
+    font-size: 42px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.team-container p {
+    color: #D5D5D5;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.team-paragraph {
+    padding: 0 4rem;
+}
+
+.team-container h3 {
+    color: #0b1b24;
+    font-size: 25px;
+}
+
+.team-container ul li {
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid #D5D5D5;
+    padding: 1rem 0;
+}
+
+.team-container li {
+    display: flex;
+    margin: 2rem auto;
+}
+
+.team-container div {
+    margin: 0 3rem;
+}
+
+.team-container div h3 {
+    margin: 5px 0;
+}
+
+.socialnetwork {
+    margin: 0 2px;
+    cursor: pointer;
+}
+
 /* CSS do Rodapé */
 footer {
     text-align: center;

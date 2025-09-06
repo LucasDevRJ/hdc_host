@@ -379,6 +379,7 @@ nav {
 
 .team-container div {
     margin: 0 3rem;
+    position: relative;
 }
 
 .team-container div h3 {
@@ -386,8 +387,13 @@ nav {
 }
 
 .socialnetwork {
-    margin: 0 2px;
     cursor: pointer;
+    position: absolute;
+    left: -50px;
+}
+
+.socialnetwork img {
+    margin: 0 2px;
 }
 
 /* CSS do Rodapé */
@@ -431,6 +437,23 @@ footer {
     .consultancy-container ul p {
         font-size: 16px;
         padding: 0 1rem;
+    }
+
+    .collaborator {
+        width: 50%;
+    }
+
+    .team-container div {
+        margin: 0 1rem;
+    }
+
+    .team-paragraph {
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    .socialnetwork {
+        left: -20px;
     }
 }
 
@@ -497,6 +520,28 @@ footer {
     .consultancy-container ul p {
         padding: 0;
     }
+
+    .team-container li {
+        display: block;
+    }
+
+    .collaborator {
+        width: 100%;
+    }
+
+    .team-container div h3 {
+        text-align: center;
+    }
+
+    .team-container div p {
+        margin: 30px 0;
+    }
+
+    .socialnetwork {
+       left: 0;
+       text-align: center;
+    }
+
 }
 
 /* Responsividade para celular a partir de 400px */
